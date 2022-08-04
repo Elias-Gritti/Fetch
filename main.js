@@ -8,9 +8,9 @@ class combo {
 }
 
 // Generamos nuestros productos
-const combo1 = new combo('Hamburguesa', './imagenes/hamburguesa.jpg', 650)
-const combo2 = new combo('Pizza', './imagenes/pizza.jpg' , 850)
-const combo3 = new combo('Papas fritas', './imagenes/papas-fritas.jpg', 500)
+const combo1 = new combo('Hamburguesa', '/imagenes/hamburguesa.jpg', 650)
+const combo2 = new combo('Pizza', '/imagenes/pizza.jpg' , 850)
+const combo3 = new combo('Papas fritas', '/imagenes/papas-fritas.jpg', 500)
 const combo4 = new combo('Sandwich', './imagenes/sandwich.jpg', 450)
 const combo5 = new combo('Empanadas', './imagenes/empanadas.jpg', 700)
 const combo6 = new combo('Panchos', './imagenes/pancho.jpg', 200)
