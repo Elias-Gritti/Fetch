@@ -8,12 +8,12 @@ class combo {
 }
 
 // Generamos nuestros productos
-const combo1 = new combo('Hamburguesa', './img/hamburguesa.jpg', 650)
-const combo2 = new combo('Pizza', './img/pizza.jpg' , 850)
-const combo3 = new combo('Papas fritas', './img/papas-fritas.jpg', 500)
-const combo4 = new combo('Sandwich', './img/sandwich.jpg', 450)
-const combo5 = new combo('Empanadas', './img/empanadas.jpg', 700)
-const combo6 = new combo('Panchos', './img/pancho.jpg', 200)
+const combo1 = new combo('Hamburguesa', './imagenes/hamburguesa.jpg', 650)
+const combo2 = new combo('Pizza', './imagenes/pizza.jpg' , 850)
+const combo3 = new combo('Papas fritas', './imagenes/papas-fritas.jpg', 500)
+const combo4 = new combo('Sandwich', './imagenes/sandwich.jpg', 450)
+const combo5 = new combo('Empanadas', './imagenes/empanadas.jpg', 700)
+const combo6 = new combo('Panchos', './imagenes/pancho.jpg', 200)
 
 
 // Creamos un array con todos nuestros productos dentro
@@ -28,7 +28,7 @@ const cardContainer = document.querySelector('#cardContainer')
 
 // Por cada producto generamos una nueva card y activamos el fetch para hacer peticiones
 const cargarProducto = () => {
-fetch("../prductos.json")
+fetch("/prductos.json")
 .then((resp) => resp.json())
 .then((productos) => {
 productos.forEach((producto) => {
