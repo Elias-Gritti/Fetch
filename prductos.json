@@ -1,32 +1,32 @@
 [
     {
         "comida": "Hamburguesa",
-        "imgSrc": "./imagenes/hamburguesa-img.jpg",
+        "imgSrc": "./img/hamburguesa.jpg",
         "precio": 650
     },
     {
         "comida": "Pizza",
-        "imgSrc": "./imagenes/Pizza-img.jpg",
+        "imgSrc": "./img/pizza.jpg",
         "precio": 850
     },
     {
         "comida": "Papas fritas",
-        "imgSrc": "./imagenes/papas-fritas-img.jpg",
+        "imgSrc": "./img/papas-fritas.jpg",
         "precio": 500
     },
     {
         "comida": "Sandwich",
-        "imgSrc": "./imagenes/Sandwich-img.jpg",
+        "imgSrc": "./img/sandwich.jpg",
         "precio": 450
     },
     {
         "comida": "Empanadas",
-        "imgSrc": "./imagenes/Empanadas-img.jpg",
+        "imgSrc": "./img/empanadas.jpg",
         "precio": 700
     },
     {
         "comida": "Panchos",
-        "imgSrc": "./imagenes/hot-dog-img.jpg",
+        "imgSrc": "./img/pancho.jpg",
         "precio": 200
     }
 ]
