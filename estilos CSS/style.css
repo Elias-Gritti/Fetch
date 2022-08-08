@@ -2,7 +2,7 @@ header{
     margin: 0px;
     padding: 80px;
     border: 0px;
-    background-image:url(/img/Background.jpg);
+    background-image:url(./img/Background.jpg);
     background-size: cover;
     text-align: left;
     font-style: italic;
